@@ -1,0 +1,117 @@
+.header {
+  height: 100vh;
+  /*95% of the viewport height*/
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.6),
+      rgba($color-primary-dark, 0.6)
+    ),
+    url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  /*the center remains the same when resizing, but the rest is resizing*/
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  /*x y is 0 0 from top-left corner to right to bottom-left and right*/
+
+  @include respond(tab-port) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 88vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 88vh, 0 100%);
+  }
+
+  &__nl {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.6),
+        rgba($color-primary-dark, 0.6)
+      ),
+      url(/images/The-Netherlands/Den-Haag.jpg);
+  }
+  &__bv {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.6),
+        rgba($color-primary-dark, 0.6)
+      ),
+      url(/images/Romania/Brasov-Piata-Sfatului.jpg);
+  }
+  &__ct {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.6),
+        rgba($color-primary-dark, 0.6)
+      ),
+      url(/images/Romania/Constanta-Beach-2.jpg);
+  }
+
+  &__cr {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.6),
+        rgba($color-primary-dark, 0.6)
+      ),
+      url(/images/Romania/Craiova.jpg);
+  }
+
+  &__ab {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.6),
+        rgba($color-primary-dark, 0.6)
+      ),
+      url(/images/Romania/Cetatea-Alba-Iulia.jpg);
+  }
+
+  &__cozia {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.6),
+        rgba($color-primary-dark, 0.6)
+      ),
+      url(/images/Romania/Cozia.jpg);
+  }
+
+  &__b {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.6),
+        rgba($color-primary-dark, 0.6)
+      ),
+      url(/images/Romania/Bucuresti-Palatul-Parlamentului.jpg);
+  }
+
+  &__hd {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.6),
+        rgba($color-primary-dark, 0.6)
+      ),
+      url(/images/Romania/Hunedoara-Corvinilor-Castle.jpg);
+  }
+
+  &__den-haag {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.6),
+        rgba($color-primary-dark, 0.6)
+      ),
+      url(/images/The-Netherlands/Den-Haag.jpg);
+  }
+  &__logo-box {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+  &__logo {
+    height: 85px;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

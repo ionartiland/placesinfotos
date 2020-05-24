@@ -1,0 +1,14 @@
+.bgimg {
+  &-den-haag {
+    position: relative;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  &-den-haag {
+    background-image: url('/images/The-Netherlands/Den-Haag.jpg');
+  }
+}

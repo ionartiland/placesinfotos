@@ -1,0 +1,76 @@
+.bgimg {
+  &-ct,
+  &-ab,
+  &-cozia,
+  &-b,
+  &-hd,
+  &-cr,
+  &-bv {
+    position: relative;
+    opacity: 0.85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  &-ct {
+    background-image: url('/images/Romania/Constanta-Beach-2.jpg');
+  }
+  &-bv {
+    background-image: url('/images/Romania/Brasov-Piata-Sfatului.jpg');
+  }
+  &-cr {
+    background-image: url('/images/Romania/Craiova.jpg');
+  }
+  &-ab {
+    background-image: url('/images/Romania/Cetatea-Alba-Iulia.jpg');
+  }
+  &-cozia {
+    background-image: url('/images/Romania/Cozia.jpg');
+  }
+  &-b {
+    background-image: url('/images/Romania/Bucuresti-Palatul-Parlamentului.jpg');
+  }
+  &-hd {
+    background-image: url('/images/Romania/Hunedoara-Corvinilor-Castle.jpg');
+  }
+}
+
+// .bgimg-ct,
+// .bgimg-ab,
+// .bgimg-cozia,
+// .bgimg-b,
+// .bgimg-hd,
+// .bgimg-cr {
+//   position: relative;
+//   opacity: 0.75;
+//   background-attachment: fixed;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   min-height: 100vh;
+// }
+// .bgimg-ct {
+//   background-image: url('/images/Romania/Constanta-Beach-2.jpg');
+// }
+
+// .bgimg-cr {
+//   background-image: url('/images/Romania/Craiova.jpg');
+// }
+
+// .bgimg-ab {
+//   background-image: url('/images/Romania/Cetatea-Alba-Iulia.jpg');
+// }
+
+// .bgimg-cozia {
+//   background-image: url('/images/Romania/Cozia.jpg');
+// }
+
+// .bgimg-b {
+//   background-image: url('/images/Romania/Bucuresti-Palatul-Parlamentului.jpg');
+// }
+
+// .bgimg-hd {
+//   background-image: url('/images/Romania/Hunedoara-Corvinilor-Castle.jpg');
+// }
